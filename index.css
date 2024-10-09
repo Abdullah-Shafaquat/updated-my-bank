@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000; /* Dark purple background */
+    color: #000000; /* Light lavender text for contrast */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #5D3FD3; /* Medium purple for the container */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Bold shadow for depth */
+    border: 2px solid #8A2BE2; /* BlueViolet border */
+}
+
+h1 {
+    font-size: 32px;
+    color: #000000; /* Light purple for headings */
+    margin-bottom: 25px;
+}
+
+.content-box {
+    margin-bottom: 20px;
+    color: #B19CD9; /* Soft purple for content */
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #8A2BE2; /* Border to match container */
+    border-radius: 10px;
+    background-color: #f6f6f8; /* SlateBlue for input background */
+    color: #000000; /* Light lavender text color */
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #9370DB; /* MediumPurple focus border */
+    background-color: #BA55D3; /* MediumOrchid background on focus */
+    outline: none;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #9370DB; /* MediumPurple for buttons */
+    color: #F8F8FF; /* GhostWhite text color */
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #BA55D3; /* MediumOrchid on hover */
+    transform: translateY(-3px); /* Subtle lift on hover */
+    color: #000000;
+}
+
+#transaction-result {
+    margin-top: 25px;
+    color: #000000; /* Matching result text color with the heading */
+}
+
+#account-options, #transaction-result, #back-button {
+    display: none;
+}
